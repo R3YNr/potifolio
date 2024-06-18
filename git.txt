@@ -1,0 +1,19 @@
+get init
+
+get config user.name "myname"
+
+git config user.email "myemail.com"
+
+git add .
+
+git commit -m "name"
+
+git remote add origin https://link/.git
+
+git remote
+
+git push https://link/.git
+
+git push --set-upstream origin master
+
+git push
