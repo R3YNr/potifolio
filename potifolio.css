@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Two columns with equal width */
+    gap: 0px; /* Space between columns */
+}
+
+.left {
+    background-color: #f3f4f8;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 680px;
+}
+.right {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; Two columns with equal width */
+    
+    flex: 1;
+    display: flex;
+    gap: 0px; /* Space between columns */
+    background-color: lightblue;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 680px;
+    
+}
+
+.top_left {
+    position: absolute;
+    flex: auto;
+    background-color: rgb(95, 43, 226);
+    border-radius: 100px;
+    left: 50px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: -30px;
+    
+}
+
+.top_left img{
+    width: 100%;/*helps to perfectly fit the image in the div*/
+    height: 100%;}
+    
+.mid_left {
+    padding: 0px;
+    
+    height: 90px;
+    margin-top: 150px;
+    margin-left: 0px;
+}
+
+.bottom_left {
+    
+    margin-top: 10px;
+    height: 300px;
+}
+.bottom_left ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+.left_right {
+  flex: 10;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: yellow;
+    margin-top: 0px;
+   
+}
+
+.right_right {
+width: 40%;
+    background-color: rgb(0, 255, 149);
+}
